@@ -16,12 +16,9 @@ export default function AppHelmet({ title }) {
       <link rel="shortcut icon" type="image/x-icon" href="/logo512.png" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
       <meta name="theme-color" content="#00BFFF" />
-      <meta
-        name="description"
-        content="Get all the latest ✓Fixed VIP Tips ✓Football Predictions, ✓Latest Football Betting Odds and livescores, results & fixtures for all leagues and competitions, including the Premier League, Championship and across the world."
-      />
-      <meta name="keywords" content="Football Predictions, Betting Odds, Live Scores, Live Sports, Football Results, Football Fixtures, Football Today, Premier League, Championship, Super Sports, Laliga, Bundesliga, Serie A" />
-      <meta name="author" content="GOAL GENIUS" />
+      <meta name="description" content="Shop the best sports accessories ✓Football Boots ✓Jerseys ✓Training Gear ✓Protective Equipment & more. Get top-quality sports gear for all your needs!" />
+      <meta name="keywords" content="sports accessories, football gear, sports equipment, football boots, jerseys, training gear, protective gear, sportswear, fitness accessories, athletic apparel, football gloves, shin guards, football kits, sports shop, running shoes, gym accessories, team uniforms, sports merchandise, high-performance gear, sports clothing" />
+      <meta name="author" content="SportStoreKe" />
       <link rel="canonical" href={canonicalUrl} />
 
       {/* Open Graph tags for social media */}
@@ -30,6 +27,8 @@ export default function AppHelmet({ title }) {
         property="og:description"
         content="Get all the latest ✓Fixed VIP Tips ✓Football Predictions, ✓Latest Football Betting Odds and livescores, results & fixtures for all leagues and competitions."
       />
+
+      <meta name="og:description" content="Shop the best sports accessories ✓Football Boots ✓Jerseys ✓Training Gear ✓Protective Equipment & more. Get top-quality sports gear for all your needs!" />
       <meta property="og:image" content={`${window.location.origin}/logo512.png`} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content="website" />
@@ -39,11 +38,11 @@ export default function AppHelmet({ title }) {
       <meta name="twitter:title" content={title} />
       <meta
         name="twitter:description"
-        content="Get all the latest ✓Fixed VIP Tips ✓Football Predictions, ✓Latest Football Betting Odds and livescores, results & fixtures for all leagues and competitions."
+        content="Shop the best sports accessories ✓Football Boots ✓Jerseys ✓Training Gear ✓Protective Equipment & more. Get top-quality sports gear for all your needs!"
       />
       <meta name="twitter:image" content={`${window.location.origin}/logo512.png`} />
 
-      <title>{title} | GOAL GENIUS - Fixed VIP Football Tips & Predictions, Insights and News</title>
+      <title>{title} | SportStoreKe - Fixed VIP Football Tips & Predictions, Insights and News</title>
     </Helmet>
   );
 }

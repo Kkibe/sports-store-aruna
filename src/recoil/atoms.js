@@ -1,6 +1,6 @@
 import { atom } from 'recoil';
 import { recoilPersist } from 'recoil-persist';
-import { pricings } from '../data';
+import { products } from '../data';
 
 const { persistAtom } = recoilPersist();
 
@@ -34,9 +34,9 @@ export const notificationState = atom({
   },
 });
 
-export const subscriptionState = atom({
-  key: 'subscriptionState',
-  default: pricings[0],
+export const dataState = atom({
+  key: 'dataState',
+  default: products[0],
   effects_UNSTABLE: [persistAtom], // Enable persistence
 });
 

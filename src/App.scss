@@ -4,7 +4,7 @@
   --light-blue: #ebf4fc;//#d0ffc4; #d9ffcf; #e6edf2 #c9dff0 #ecf0f3
   --dark-blue: #1f4568;//#0067b8 #023020;
   --blue: #2196f3;//#3498db
-  --light-grey: #ccc; 
+  --light-grey: #ccc;
   --grey: #7288a2;//#8198ae//7a7979//#4d5974 #4d5974; #95abbb
   --dark-grey: #555;
   --dark-shadow: 0px 5px 3px -4px var(--dark);
@@ -48,7 +48,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 95px;
+    margin-top: 60px;
     min-height: 100vh;
     color: var(--dark);
     overflow: hidden;
@@ -66,7 +66,7 @@
       letter-spacing: 6px;
     }
 
-    
+
     h2{
         text-align: center;
         font-size: 24px;
@@ -80,7 +80,7 @@
       color: var(--dark-blue);
       flex: 1.5;
     }
-    
+
     h4{
       font-size: 20px;
       color: var(--grey);
@@ -101,8 +101,8 @@
       flex-wrap: wrap;
       margin-bottom: 40px;
     }
-  
-       
+
+
   .btn {
     width: fit-content;
     background: var(--blue);

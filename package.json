@@ -1,9 +1,9 @@
 {
-  "name": "goalgenius",
+  "name": "SportStoreKe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://254liquors.com/",
+  "homepage": "https://sportstoreke.onrender.com/",
   "proxy": "*",
   "scripts": {
     "dev": "vite",

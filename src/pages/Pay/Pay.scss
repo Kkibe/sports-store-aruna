@@ -1,6 +1,6 @@
 .pay{
     width: 100%;
-    min-height: calc(100vh - 95px);
+    min-height: calc(100vh - 60px);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -10,7 +10,7 @@
     h4{
       text-align: center;
     }
-    
+
     form.method{
         width: 100%;
         max-width: 800px;
@@ -47,7 +47,7 @@
                 }
               }
 
-            
+
               input[type="radio"]{
                 visibility: hidden;
                 position: absolute;
@@ -64,7 +64,7 @@
                   position: relative;
                   z-index: 5;
                 }
-              } 
+              }
         }
     }
 }

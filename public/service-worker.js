@@ -1,4 +1,4 @@
-const CACHE_NAME = 'goal-genius-cache';
+const CACHE_NAME = 'sports-store-ke';
 const urlsToCache = [
     '/',
     '/index.html',
@@ -95,6 +95,6 @@ self.addEventListener('push', (event) => {
         badge: '/logo128.png'
     };
     event.waitUntil(
-        self.registration.showNotification('GOAL GENIUS', options)
+        self.registration.showNotification('SportStoreKe', options)
     );
 });

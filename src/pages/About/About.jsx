@@ -10,19 +10,23 @@ const About = () => {
     return (
         <div className="about">
             <ScrollToTop />
-            <AppHelmet title={"About"}/>
+            <AppHelmet title={"About"} />
             <div className="about-us">
                 <div className="info">
                     <h1>About Us</h1>
-                    <p>Welcome to our football prediction platform, your ultimate destination for accurate match forecasts, insightful analysis, and real-time updates! Whether you're a football enthusiast, a seasoned bettor, or just curious about the beautiful game, our website offers something special for everyone.</p>
-                    <h1>For Football Fans</h1>
-                    <p>Dive into a world of football predictions and analysis. From the Premier League to international tournaments, we provide forecasts backed by data and expert insights. Stay ahead of the game with our curated content, tailored to keep you informed and engaged throughout the season.</p>
-                    <h1>For Bettors and Analysts</h1>
-                    <p>Gain access to detailed match predictions, player stats, and historical data to make informed decisions. Our platform is designed to empower you with the tools and insights you need to succeed, whether you're betting for fun or professionally analyzing the sport.</p>
-                    <h1>Stay Updated with Real-Time Insights</h1>
-                    <p>Our platform delivers live updates, ensuring you're always informed about the latest match developments, team news, and performance metrics. Subscribe to our alerts and never miss a critical update during the season.</p>
+                    <p>Welcome to our online sports accessory store, your go-to destination for high-quality sports gear, apparel, and equipment! Whether you're an athlete, a fitness enthusiast, or a casual player, we provide everything you need to perform at your best.</p>
+
+                    <h1>For Athletes and Sports Enthusiasts</h1>
+                    <p>Explore our wide range of premium sports accessories, from football boots and jerseys to training equipment and protective gear. We carefully select products to help you train, compete, and enjoy your favorite sports with confidence.</p>
+
+                    <h1>For Teams and Coaches</h1>
+                    <p>We offer team kits, bulk orders, and customized gear for clubs, schools, and coaches looking to outfit their players with high-performance equipment. Our products are designed for durability and comfort, ensuring your team stays ahead of the competition.</p>
+
+                    <h1>Stay Ahead with the Latest Gear</h1>
+                    <p>We bring you the latest sports innovations, ensuring you have access to the best brands and cutting-edge gear. Subscribe to our updates and be the first to know about new arrivals, exclusive deals, and seasonal collections.</p>
+
                     <h1>Our Mission</h1>
-                    <p>We aim to revolutionize football predictions by combining cutting-edge technology, expert knowledge, and community-driven engagement. Join us today and become part of a thriving community that shares your passion for football and the excitement of the game. Let's predict, analyze, and celebrate football together!</p>
+                    <p>Our mission is to support athletes of all levels by providing top-quality sports accessories that enhance performance and comfort. We are passionate about sports and committed to helping you reach your goals. Join our community and experience the best in sports gear today!</p>
 
                     <div className="links">
                         <NavLink to="/contact" title='contact' className="btn">Contact Us</NavLink>
