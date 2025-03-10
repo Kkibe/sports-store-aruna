@@ -6,7 +6,7 @@ export const trackPayment = async (orderTrackingId, setNotification, setStatusDa
     };
 
     try {
-        const res = await fetch(`https://api.sportstoreke.onrender.com/api/pesapal/status`, {
+        const res = await fetch(`https://api.sportsexpress.onrender.com/api/pesapal/status`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -33,7 +33,7 @@ export default function Payment() {
     reference: (new Date()).getTime().toString(),
     email: user ? user.email : "coongames8@gmail.com",
     amount: (paymentType === "mpesa") ? ((data && data.price * 100) || (data.price * 100)) : (((data && data.price * 100) / 129) || ((data.price * 100) / 129)),
-    publicKey: 'pk_live_bddd84f711046f4cb7bfd24aa6a640af0dbfd784',
+    publicKey: 'pk_live_f628e7a11c104bed17fff32ce5f0e95f7ea40637',
     currency: (paymentType === "mpesa") ? "KES" : "USD",
     metadata: {
       name: user ? user.email : "coongames8@gmail.com",

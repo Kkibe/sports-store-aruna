@@ -6,9 +6,9 @@ import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBLDtEm-sFClNIoKK1x0PAnI4A1bi_iMOY",
-  authDomain: "sportstoreke.firebaseapp.com",
-  projectId: "sportstoreke",
-  storageBucket: "sportstoreke.firebasestorage.app",
+  authDomain: "sportsexpress.firebaseapp.com",
+  projectId: "sportsexpress",
+  storageBucket: "sportsexpress.firebasestorage.app",
   messagingSenderId: "764091017074",
   appId: "1:764091017074:web:c43ebf8cc5428c63ed5feb",
   measurementId: "G-D5X3KBGFM4"

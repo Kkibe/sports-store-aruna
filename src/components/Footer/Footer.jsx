@@ -7,11 +7,11 @@ const Footer = () => {
         <div className='footer theme'>
             <div className='section-wrapper theme'>
                 <section>
-                    <h2>SportStoreKe</h2>
+                    <h2>sportsexpress</h2>
                     <div className='items-container theme'>
-                        <NavLink to='/' title='SportStoreKe' state={{ from: location }}>Home</NavLink>
+                        <NavLink to='/' title='sportsexpress' state={{ from: location }}>Home</NavLink>
                         <NavLink to='/store' title='store' state={{ from: location }}>Store</NavLink>
-                        <NavLink to='/about' title='about us' state={{ from: location }}>About SportStoreKe</NavLink>
+                        <NavLink to='/about' title='about us' state={{ from: location }}>About sportsexpress</NavLink>
                     </div>
                 </section>
 
@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
             <hr />
             <div className='footer-bottom theme'>
-                <p>&copy; SportStoreKe {new Date().getFullYear()}</p>
+                <p>&copy; sportsexpress {new Date().getFullYear()}</p>
                 <NavLink to="/about/#faq" title='help' state={{ from: location }}>FAQ</NavLink>
             </div>
         </div>

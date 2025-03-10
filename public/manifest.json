@@ -1,7 +1,7 @@
 {
-  "short_name": "SportStoreKe",
-  "name": "SportStoreKe",
-  "homepage": "https://sportstoreke.onrender.com/",
+  "short_name": "sportsexpress",
+  "name": "sportsexpress",
+  "homepage": "https://sportsexpress.onrender.com/",
   "version": "0.1.0",
   "description": "Get expert football tips, accurate match predictions, live scores, and the latest betting odds. Stay updated with fixtures and results from top leagues worldwide",
   "icons": [
@@ -107,8 +107,8 @@
     "type": "classic"
   },
   "developer": {
-    "name": "SportStoreKe",
-    "url": "https://sportstoreke.onrender.com/"
+    "name": "sportsexpress",
+    "url": "https://sportsexpress.onrender.com/"
   },
   "repository": {
     "type": "git",

@@ -18,7 +18,7 @@ export default function AppHelmet({ title }) {
       <meta name="theme-color" content="#00BFFF" />
       <meta name="description" content="Shop the best sports accessories ✓Football Boots ✓Jerseys ✓Training Gear ✓Protective Equipment & more. Get top-quality sports gear for all your needs!" />
       <meta name="keywords" content="sports accessories, football gear, sports equipment, football boots, jerseys, training gear, protective gear, sportswear, fitness accessories, athletic apparel, football gloves, shin guards, football kits, sports shop, running shoes, gym accessories, team uniforms, sports merchandise, high-performance gear, sports clothing" />
-      <meta name="author" content="SportStoreKe" />
+      <meta name="author" content="sportsexpress" />
       <link rel="canonical" href={canonicalUrl} />
 
       {/* Open Graph tags for social media */}
@@ -42,7 +42,7 @@ export default function AppHelmet({ title }) {
       />
       <meta name="twitter:image" content={`${window.location.origin}/logo512.png`} />
 
-      <title>{title} | SportStoreKe - Fixed VIP Football Tips & Predictions, Insights and News</title>
+      <title>{title} | sportsexpress - Fixed VIP Football Tips & Predictions, Insights and News</title>
     </Helmet>
   );
 }

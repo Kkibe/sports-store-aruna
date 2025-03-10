@@ -14,7 +14,7 @@ export const handlePayment = async (amount, email, description, redirectPath, se
 
   setLoading(true);
   try {
-    const res = await fetch('https://api.sportstoreke.onrender.com/api/pesapal/', {
+    const res = await fetch('https://api.sportsexpress.onrender.com/api/pesapal/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

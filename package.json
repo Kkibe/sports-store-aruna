@@ -1,9 +1,9 @@
 {
-  "name": "SportStoreKe",
+  "name": "sportsexpress",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sportstoreke.onrender.com/",
+  "homepage": "https://sportsexpress.onrender.com/",
   "proxy": "*",
   "scripts": {
     "dev": "vite",

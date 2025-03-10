@@ -95,6 +95,6 @@ self.addEventListener('push', (event) => {
         badge: '/logo128.png'
     };
     event.waitUntil(
-        self.registration.showNotification('SportStoreKe', options)
+        self.registration.showNotification('sportsexpress', options)
     );
 });

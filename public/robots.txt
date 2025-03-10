@@ -3,7 +3,7 @@ User-agent: *
 Disallow:
 
 # Specify the sitemap location
-Sitemap: https://sportstoreke.onrender.com/sitemap.xml
+Sitemap: https://sportsexpress.onrender.com/sitemap.xml
 
 # (Optional) Restrict access to certain areas
 Disallow: /add-post/
