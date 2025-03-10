@@ -30,7 +30,8 @@ function App() {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       if (currentUser) {
-        getUser(currentUser.email, setUser);
+        //getUser(currentUser.email, setUser);
+        setUser(currentUser);
       } else {
         setUser(null);
       }
