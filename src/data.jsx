@@ -8,82 +8,69 @@ import Img2 from './assets/img2.jpg';
 import Img3 from './assets/img3.jpg';
 import Img4 from './assets/img4.jpg';
 import Img5 from './assets/img5.jpg';
-import Img6 from './assets/img6.png';
 
 
 export const products = [
   {
-    id: "1",
-    title: "High-Performance Sports Shoes",
-    price: 250,
+    id: 1,
+    title: "Casual Sneakers",
+    price: 120,
     features: [
-      "Durable and lightweight",
-      "Enhanced grip for better control",
-      "Available in multiple sizes",
+      "Comfortable and stylish",
+      "Perfect for everyday wear",
+      "Available in multiple colors"
     ],
-    color: "#2196f3",
+    color: "#9C27B0",
     image: Img1
   },
   {
-    id: "2",
-    title: "Premium Sportswear Set",
-    price: 850,
+    id: 2,
+    title: "Elastic Sports Wristband",
+    price: 50,
     features: [
       "Breathable fabric for comfort",
-      "Includes jersey, shorts, and socks",
-      "Moisture-wicking technology",
+      "Absorbs sweat during intense workouts",
+      "Stretchable to fit any wrist size"
     ],
-    color: "#3498db",
+    color: "#FFC107",
     image: Img2
   },
   {
-    id: "3",
-    title: "Professional Training Kit",
-    price: 4000,
+    id: 3,
+    title: "Compression Arm Sleeves",
+    price: 60,
     features: [
-      "Full set of training cones, hurdles, and resistance bands",
-      "Ideal for speed and agility training",
-      "Used by professional athletes",
+      "Provides support during physical activity",
+      "Helps reduce muscle fatigue",
+      "Available in multiple colors"
     ],
-    color: "#1f4568",
+    color: "#3F51B5",
     image: Img3
   },
   {
-    id: "4",
-    title: "Sports Hydration Pack",
-    price: 850,
+    id: 4,
+    title: "Outdoor Hiking Boots",
+    price: 200,
     features: [
-      "BPA-free durable water bottle",
-      "Includes energy drink sachets",
-      "Compact and easy to carry",
+      "Durable for tough terrains",
+      "Waterproof and breathable",
+      "Available in various sizes"
     ],
-    color: "#2196f3",
+    color: "#FF9800",
     image: Img4
   },
   {
-    id: "5",
-    title: "Advanced Protective Gear Set",
-    price: 4000,
+    id: 5,
+    title: "Sport Cap Sun Hiking Hat",
+    price: 100,
     features: [
-      "Includes shin guards, gloves, and ankle supports",
-      "Lightweight and impact-resistant",
-      "Designed for maximum protection",
+      "Comfortable and stylish",
+      "Quick Dry Breathable",
+      "Available in multiple colors"
     ],
-    color: "#3498db",
+    color: "#9C27B0",
     image: Img5
   },
-  {
-    id: "6",
-    title: "Elite Football Kit Bundle",
-    price: 10000,
-    features: [
-      "Complete set: boots, jersey, gloves, and accessories",
-      "Customizable with name and number",
-      "Designed for professional performance",
-    ],
-    color: "#1f4568",
-    image: Img6
-  }
 ];
 
 
